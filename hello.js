@@ -8,6 +8,7 @@ const server = http.createServer((req, res) => {
   res.statusCode = 200;       // ❸
   res.setHeader("Content-Type", "text/plain"); // ➍
   res.write("hello\n");            // ➎
+  res.
   // prettier-ignore
   setTimeout(() => {             // ➏
     res.end("Node.js");
